@@ -1,0 +1,88 @@
+body {
+    background-color: #E5E5E5;
+    padding: 10px;
+}
+
+.container {
+    width: 1440px;
+    height: 1128px;
+    position: relative;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.form {
+    position: absolute;
+    left: 179px;
+    top: 147px;
+    width: 563px;
+    height: 575px;
+    justify-content: center;
+    outline: blue solid 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #FFFFFF;
+}
+
+.icon-map {
+    position: absolute;
+    background-image: url(../images/map.svg);
+    width: 976px;
+    height: 976px;
+    background-repeat: no-repeat;
+    top: -52px;
+    left: 814px;
+    border-radius: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+textarea {
+    width: 557px;
+    height: 189px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 30px 45px;
+    margin-bottom: 23px;
+}
+
+.main-title {
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.form-text {
+
+}
+
+.input {
+    width: 557px;
+    height: 93px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 30px 45px;
+    margin-bottom: 8px;
+}
+
+.form-comment {
+    width: 557px;
+    height: 189px;
+}
+
+.form-button {
+    background: #FAD34F;
+    border-radius: 500px;
+    width: 218px;
+    height: 73px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    border: none;
+}
