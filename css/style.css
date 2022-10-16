@@ -1,6 +1,6 @@
 body {
     background-color: #E5E5E5;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .container {
@@ -24,17 +24,13 @@ body {
     background-color: #FFFFFF;
 }
 
-.icon-map {
-    position: absolute;
-    background-image: url(../images/map.svg);
-    width: 976px;
-    height: 976px;
-    background-repeat: no-repeat;
-    top: -52px;
-    left: 814px;
-    border-radius: 50%;
-    background-size: cover;
-    overflow: hidden;
+.main-title {
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    margin-top: 0px;
+    margin-bottom: 32px;
 }
 
 textarea {
@@ -45,15 +41,6 @@ textarea {
     border-radius: 10px;
     padding: 30px 45px;
     margin-bottom: 23px;
-}
-
-.main-title {
-    color: #3E3E3E;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 130%;
-    margin-top: 0px;
-    margin-bottom: 30px;
 }
 
 .form-text {
@@ -85,4 +72,65 @@ textarea {
     font-size: 18px;
     line-height: 1;
     border: none;
+}
+
+.icon-map {
+    position: absolute;
+    background-image: url(../images/map.svg);
+    width: 976px;
+    height: 976px;
+    background-repeat: no-repeat;
+    top: -52px;
+    left: 814px;
+    border-radius: 50%;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.icon-smile-1 {
+    width: 88px;
+    height: 85px;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    /* background-image: url(../images/symbol-defs.svg#icon-smile-1); */
+}
+
+.icon-smile-1-use {
+    width: 88px;
+    height: 85px;
+}
+
+.icon-smile-1 svg {
+    width: 88px;
+    height: 85px;
+}
+
+                                                            /* footer */
+
+.footer-container {
+    width: 1440px;
+    height: 200px;
+    background-color: #FAFAFA;
+    border: 1px solid #D8D8D8;
+    padding-top: 80px;
+    padding-left: 343px;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 127px;
+    height: 16px;
+}
+
+.icon-item {
+
+}
+
+.icon-item svg {
+    width: 15px;
+    height: 15px;
 }
