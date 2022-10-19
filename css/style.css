@@ -84,6 +84,7 @@ textarea {
     border-radius: 50%;
     background-size: contain;
     overflow: hidden;
+    z-index: 3;
 }
 
 .icon-smile-1 {
