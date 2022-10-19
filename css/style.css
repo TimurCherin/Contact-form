@@ -15,7 +15,7 @@ body {
 .form {
     position: absolute;
     left: 179px;
-    top: 147px;
+    top: 160px;
     width: 563px;
     height: 575px;
     justify-content: center;
@@ -90,16 +90,16 @@ textarea {
 }
 
 .icon-smile-1 {
-    width: 127px;
+    width: 135px;
     height: 127px;
     position: absolute;
-    top: 0px;
-    left: 50px;
+    top: 10px;
+    left: 30px;
 }
 
 .icon-smile-2 {
-    width: 127px;
-    height: 150px;
+    width: 100px;
+    height: 130px;
     position: absolute;
     top: -15px;
     left: 1230px;
