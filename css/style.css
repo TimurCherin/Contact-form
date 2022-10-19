@@ -88,27 +88,59 @@ textarea {
 }
 
 .icon-smile-1 {
-    width: 88px;
-    height: 85px;
+    width: 188px;
+    height: 185px;
     position: absolute;
-    top: 25px;
-    left: 35px;
-    /* background-image: url(../images/symbol-defs.svg#icon-smile-1); */
+    top: 0px;
+    left: -50px;
 }
 
-.icon-smile-1-use {
-    width: 88px;
-    height: 85px;
+.icon-smile-2 {
+    width: 188px;
+    height: 185px;
+    position: absolute;
+    top: 0px;
+    left: 1000px;
 }
 
-.icon-smile-1 svg {
-    width: 88px;
-    height: 85px;
+.icon-smile-3 {
+    width: 188px;
+    height: 185px;
+    position: absolute;
+    top: 600px;
+    left: 830px;
+}
+
+.icon-smile-4 {
+    width: 188px;
+    height: 185px;
+    position: absolute;
+    top: 35px;
+    left: 1270px;
+    z-index: 2;
+}
+
+.icon-smile-5 {
+    width: 188px;
+    height: 185px;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+.icon-smile-6 {
+    width: 188px;
+    height: 185px;
+    position: absolute;
+    top: 0px;
+    left: -50px;
 }
 
                                                             /* footer */
 
 .footer-container {
+    position: relative;
+    overflow: hidden;
     width: 1440px;
     height: 200px;
     background-color: #FAFAFA;
